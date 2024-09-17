@@ -1,4 +1,4 @@
-from calculator import Cсalculator  # Импортировал метод из файла calculator.py
+from calculator import Ccalculator  # Импортировал метод из файла calculator.py
 
 if __name__ == "__main__":
     # Принял два значения от пользователя
