@@ -2,7 +2,7 @@ import math
 
 #Метод рассчета суммы
 def Ccalculator(x, y, z):
-    if z == "да" or "Да":
+    if z == "да" or z == "Да":
         l = 0
     else:
         l = 1

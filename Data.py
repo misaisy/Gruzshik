@@ -4,8 +4,8 @@ if __name__ == "__main__":
     # Принял три значения от пользователя
     a = int(input("Введите вес груза: "))
     b = int(input("Введите номер этажа: "))
-    c = str(input("У вас есть лифт?"))
+    c = str(input("У вас есть лифт? "))
 
     # Вызывал метод из calculator.py и вывел результат
-    result = Ccalculator(a, b)
+    result = Ccalculator(a, b, c)
     print(f"Результат: {result}")
